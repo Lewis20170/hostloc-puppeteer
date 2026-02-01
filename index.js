@@ -75,8 +75,8 @@ function log(message) {
 
     console.log('登录成功');
 
-    log('开始随机访问20个用户空间...');
-    for (let i = 0; i < 20; i++) {
+    log('开始随机访问8个用户空间...');
+    for (let i = 0; i < 8; i++) {
       const randomUid = Math.floor(Math.random() * 31210);
       log(`访问用户空间: https://www.hostloc.com/space-uid-${randomUid}.html`);
       try {
