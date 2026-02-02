@@ -1,4 +1,4 @@
-# Hostloc Puppeteer 自动化脚本
+# Hostloc-Puppeteer 自动化脚本
 
 ## 最新更新
 - 使用更稳定的元素选择器 `input[name="username"]` 和 `input[name="password"]`
@@ -14,8 +14,8 @@
 3. 测试运行：`npm test`
 
 ## 环境变量
-- `USERNAME`: 论坛用户名
-- `PASSWORD`: 论坛密码
+- `HOSTLOC_USERNAME`: 论坛用户名
+- `HOSTLOC_PASSWORD`: 论坛密码
 
 ## GitHub Actions
 工作流文件已配置为自动执行脚本
